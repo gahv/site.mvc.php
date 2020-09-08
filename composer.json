@@ -1,0 +1,29 @@
+{
+    "name": "gahv/site.mvc.php",
+    "description": "Site MVC em PHP",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gorky Velásquez",
+            "email": "gorkyandre@gmail.com"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/router": "1.0.*",
+        "coffeecode/datalayer": "1.1.*",
+        "coffeecode/paginator": "1.0.*",
+        "league/plates": "3.*"
+    }
+}
