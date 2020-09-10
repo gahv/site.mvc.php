@@ -20,9 +20,15 @@
             "source/Config.php"
         ]
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/gahv/datalayer"
+        }
+    ],
     "require": {
         "coffeecode/router": "1.0.*",
-        "coffeecode/datalayer": "1.1.*",
+        "coffeecode/datalayer": "dev-master",
         "coffeecode/paginator": "1.0.*",
         "league/plates": "3.*"
     }

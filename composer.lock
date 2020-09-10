@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0ba6b5617870122f10223cde80f85c56",
+    "content-hash": "64382f0cb6a2bff72af763d6900ecc29",
     "packages": [
         {
             "name": "coffeecode/datalayer",
-            "version": "1.1.7",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/robsonvleite/datalayer.git",
-                "reference": "6a51fa227bba003be11519e7efa8338bc87460f5"
+                "url": "https://github.com/gahv/datalayer.git",
+                "reference": "538fef976b9deb994ace86be1e2f7a148f856e68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/robsonvleite/datalayer/zipball/6a51fa227bba003be11519e7efa8338bc87460f5",
-                "reference": "6a51fa227bba003be11519e7efa8338bc87460f5",
+                "url": "https://api.github.com/repos/gahv/datalayer/zipball/538fef976b9deb994ace86be1e2f7a148f856e68",
+                "reference": "538fef976b9deb994ace86be1e2f7a148f856e68",
                 "shasum": ""
             },
             "require": {
@@ -30,7 +30,6 @@
                     "CoffeeCode\\DataLayer\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -44,16 +43,19 @@
             "description": "The data layer is a persistent abstraction component of your database that PDO",
             "homepage": "http://www.upinside.com.br",
             "keywords": [
-                "Coffeecode",
-                "crud",
-                "database",
-                "delete",
-                "destroy",
-                "pdo",
-                "save",
-                "upinside"
+                "CRUD",
+                "CoffeeCode",
+                "Database",
+                "Delete",
+                "Destroy",
+                "PDO",
+                "Save",
+                "UpInside"
             ],
-            "time": "2020-07-02T17:10:50+00:00"
+            "support": {
+                "source": "https://github.com/gahv/datalayer/tree/master"
+            },
+            "time": "2020-09-10T03:56:01+00:00"
         },
         {
             "name": "coffeecode/paginator",
@@ -203,7 +205,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "coffeecode/datalayer": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
