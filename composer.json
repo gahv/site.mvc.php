@@ -14,10 +14,11 @@
     },
     "autoload": {
         "psr-4": {
-            "Source\\": "source/"
+            "Source\\": "Source/"
         },
         "files": [
-            "source/Config.php"
+            "Source/App/Core/Config.php",
+            "Source/App/Core/Controller.php"
         ]
     },
     "repositories": [

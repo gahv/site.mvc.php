@@ -2,15 +2,37 @@
 
 require __DIR__ . "/vendor/autoload.php";
 
-use CoffeeCode\DataLayer\Connect;
+use CoffeeCode\Router\Router;
 
+$router = new Router(URL_BASE);
 
-$conn = Connect::getInstance();
-$error = Connect::getError();
+/**
+ * Controllers
+ */
+$router->namespace("Source\App\Controllers");
 
-if ($error) {
-    echo $error->getMessage();
-    die();
+/**
+ * WEB
+ */
+$router->group(null);
+$router->get("/", "Web:home", "web.home");
+$router->get("/sobre", "Web:about", "web.about");
+$router->get("/contato", "Web:contact", "web.contact");
+
+/**
+ * Erros
+ */
+$router->group("ops");
+$router->get("/{errcode}", "Web:error");
+
+/**
+ * Executa as rotas
+ */
+$router->dispatch();
+
+/**
+ * Trata erro de rota
+ */
+if ($router->error()) {
+    $router->redirect("/ops/{$router->error()}");
 }
-
-var_dump($users);

@@ -1,5 +1,9 @@
 <?php
 
+define("SITE", "Site MVC PHP");
+
+define("URL_BASE", "http://localhost/sitephpmvc");
+
 define("DATA_LAYER_CONFIG", [
     "driver" => "sqlsrv",
     "host" => "localhost",
@@ -14,3 +18,16 @@ define("DATA_LAYER_CONFIG", [
         PDO::ATTR_CASE => PDO::CASE_NATURAL
     ]
 ]);
+
+/**
+ * @param string|null $uri
+ * @return string
+ */
+function url(string $uri = null): string
+{
+    if ($uri) {
+        return URL_BASE . "/{$uri}";
+    }
+
+    return URL_BASE;
+}
