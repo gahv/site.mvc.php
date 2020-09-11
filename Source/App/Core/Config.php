@@ -2,7 +2,7 @@
 
 define("SITE", "Site MVC PHP");
 
-define("URL_BASE", "http://localhost/sitephpmvc");
+define("URL_BASE", "http://localhost/sitemvcphp");
 
 define("DATA_LAYER_CONFIG", [
     "driver" => "sqlsrv",
