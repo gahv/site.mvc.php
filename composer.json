@@ -24,12 +24,12 @@
     "repositories": [
         {
             "type": "vcs",
-            "url":  "https://github.com/gahv/datalayer"
+            "url":  "https://github.com/gahv/DataPersistence"
         }
     ],
     "require": {
         "coffeecode/router": "1.0.*",
-        "coffeecode/datalayer": "dev-master",
+        "gahv/datapersistence": "dev-master",
         "coffeecode/paginator": "1.0.*",
         "league/plates": "3.*"
     }

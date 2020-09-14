@@ -4,59 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "64382f0cb6a2bff72af763d6900ecc29",
+    "content-hash": "0daa2836a3fb3d2d42579f8b859413a0",
     "packages": [
-        {
-            "name": "coffeecode/datalayer",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/gahv/datalayer.git",
-                "reference": "538fef976b9deb994ace86be1e2f7a148f856e68"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/gahv/datalayer/zipball/538fef976b9deb994ace86be1e2f7a148f856e68",
-                "reference": "538fef976b9deb994ace86be1e2f7a148f856e68",
-                "shasum": ""
-            },
-            "require": {
-                "ext-pdo": "*",
-                "php": "^7.2"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "CoffeeCode\\DataLayer\\": "src"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Robson V. Leite",
-                    "email": "cursos@upinside.com.br",
-                    "role": "Developer"
-                }
-            ],
-            "description": "The data layer is a persistent abstraction component of your database that PDO",
-            "homepage": "http://www.upinside.com.br",
-            "keywords": [
-                "CRUD",
-                "CoffeeCode",
-                "Database",
-                "Delete",
-                "Destroy",
-                "PDO",
-                "Save",
-                "UpInside"
-            ],
-            "support": {
-                "source": "https://github.com/gahv/datalayer/tree/master"
-            },
-            "time": "2020-09-10T03:56:01+00:00"
-        },
         {
             "name": "coffeecode/paginator",
             "version": "1.0.5",
@@ -147,6 +96,52 @@
             "time": "2019-09-30T16:29:47+00:00"
         },
         {
+            "name": "gahv/datapersistence",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gahv/DataPersistence.git",
+                "reference": "f82908dc3feac6b389ad6fb4411395fb6e6d3f7c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gahv/DataPersistence/zipball/f82908dc3feac6b389ad6fb4411395fb6e6d3f7c",
+                "reference": "f82908dc3feac6b389ad6fb4411395fb6e6d3f7c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": "^7.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "gahv\\DataPersistence\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gorky Velásquez",
+                    "email": "gorkyandre@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Database abstraction component using PDO",
+            "homepage": "https://www.gorkyandre.com.br",
+            "keywords": [
+                "Database",
+                "PDO"
+            ],
+            "support": {
+                "source": "https://github.com/gahv/DataPersistence/tree/master",
+                "issues": "https://github.com/gahv/DataPersistence/issues"
+            },
+            "time": "2020-09-14T04:58:36+00:00"
+        },
+        {
             "name": "league/plates",
             "version": "3.3.0",
             "source": {
@@ -206,7 +201,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "coffeecode/datalayer": 20
+        "gahv/datapersistence": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
