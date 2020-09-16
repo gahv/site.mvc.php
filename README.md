@@ -5,8 +5,8 @@
 ### Router
 [https://packagist.org/packages/coffeecode/router](https://packagist.org/packages/coffeecode/router)
 
-### Datalayer
-[https://packagist.org/packages/coffeecode/datalayer](https://packagist.org/packages/coffeecode/datalayer)
+### DataPersistence
+[https://github.com/gahv/DataPersistence](https://github.com/gahv/DataPersistence)
 
 ### Paginator
 [https://packagist.org/packages/coffeecode/paginator](https://packagist.org/packages/coffeecode/paginator)
