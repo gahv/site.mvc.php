@@ -1,6 +1,6 @@
 <?php
 
-namespace Source\App\Core;
+namespace Source\Core;
 use gahv\DataPersistence\DataPersistence;
 
 /**

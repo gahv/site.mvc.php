@@ -1,13 +1,13 @@
 <?php
 
 namespace Source\App\Controllers;
-use Source\App\Core\Controller;
+use Source\Core\Controller;
 
 class Web extends Controller
 {
-    public function __construct()
-    {
-        parent::__construct();
+    public function __construct($router)
+    {   
+        parent::__construct($router);
     }
 
     public function home($parans) : void

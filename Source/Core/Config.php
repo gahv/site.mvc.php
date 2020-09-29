@@ -4,6 +4,8 @@ define("SITE", "Site MVC PHP");
 
 define("URL_BASE", "http://localhost/sitemvcphp");
 
+define("DEBUG", true);
+
 define("DATA_LAYER_CONFIG", [
     "driver" => "sqlsrv",
     "host" => "localhost",
@@ -27,6 +29,19 @@ function url(string $uri = null): string
 {
     if ($uri) {
         return URL_BASE . "/{$uri}";
+    }
+
+    return URL_BASE;
+}
+
+/**
+ * @param string|null $uri
+ * @return string
+ */
+function assets(string $uri = null): string
+{
+    if ($uri) {
+        return URL_BASE . "/Themes/assets/{$uri}";
     }
 
     return URL_BASE;

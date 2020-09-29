@@ -2,8 +2,12 @@
 
 require __DIR__ . "/vendor/autoload.php";
 
-use CoffeeCode\Router\Router;
+if (DEBUG) {
+    error_reporting(E_ALL);
+    ini_set("display_errors", 1);
+}
 
+use CoffeeCode\Router\Router;
 $router = new Router(URL_BASE);
 
 /**

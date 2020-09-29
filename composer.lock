@@ -101,12 +101,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/gahv/DataPersistence.git",
-                "reference": "f82908dc3feac6b389ad6fb4411395fb6e6d3f7c"
+                "reference": "f072433e9fcc3729b5099443b9df0784030926ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gahv/DataPersistence/zipball/f82908dc3feac6b389ad6fb4411395fb6e6d3f7c",
-                "reference": "f82908dc3feac6b389ad6fb4411395fb6e6d3f7c",
+                "url": "https://api.github.com/repos/gahv/DataPersistence/zipball/f072433e9fcc3729b5099443b9df0784030926ee",
+                "reference": "f072433e9fcc3729b5099443b9df0784030926ee",
                 "shasum": ""
             },
             "require": {
@@ -139,7 +139,7 @@
                 "source": "https://github.com/gahv/DataPersistence/tree/master",
                 "issues": "https://github.com/gahv/DataPersistence/issues"
             },
-            "time": "2020-09-14T04:58:36+00:00"
+            "time": "2020-09-16T20:04:44+00:00"
         },
         {
             "name": "league/plates",
@@ -206,5 +206,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }

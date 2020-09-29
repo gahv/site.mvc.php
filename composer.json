@@ -17,8 +17,8 @@
             "Source\\": "Source/"
         },
         "files": [
-            "Source/App/Core/Config.php",
-            "Source/App/Core/Controller.php"
+            "Source/Core/Config.php",
+            "Source/Core/Controller.php"
         ]
     },
     "repositories": [
